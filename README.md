@@ -30,7 +30,7 @@ Repositório destinado às práticas realizadas no Curso SQL para Análise de Da
 ⭐ ```DELETE```: Comando de exclusão de valores;
 
 
-## Comando de restrição 
+## Comandos de restrição 
 ⭐ ```WHERE```: Filtra linhas não agrupadas
 
 - Operadores aritméticos: +, -, *, /
@@ -47,3 +47,25 @@ Repositório destinado às práticas realizadas no Curso SQL para Análise de Da
 
 ## Alias 
 ⭐ ```AS```: Apelido;
+
+## Comandos Condicionais
+⭐ ```CASE```: Se a primeira condição for verdadeira não analisa as outras condições
+
+```SQL
+CASE 
+    WHEN condição1 THEN faça
+    WHEN condição2 THEN faça
+    ELSE faça
+```
+
+⭐ ```IF```: Aceita condições aninhadas
+
+```SQL
+IF(condição1, faça caso seja True,  faça caso seja False)
+```
+
+⭐ ```COALESCE```: Retorna o primeiro parâmetro não nulo
+
+```SQL
+COALESCE(para1, se para1 for nulo faça)
+```
