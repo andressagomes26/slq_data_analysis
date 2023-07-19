@@ -103,6 +103,24 @@ COALESCE(para1, se para1 for nulo faça)
 
 ⭐ ```AVG```:  Retorna a média de um grupo de valores ou expressão;
 
+## Funções Matemáticas
+
+⭐ ```ABS```: Calcula o valor absoluto;
+
+⭐ ```RAND```: Retorna um valor aleatório entre  0 e 1, não considerando 1;
+
+⭐ ```SQRT```: Calcula a raiz quadrada;
+
+⭐ ```POW```: Retorna a primeira entrada elevada à segunda entrada;
+
+⭐ ```LOG```: Retorna o logarítmo da primeira entrada na base da segunda entrada;
+
+⭐ ```ROUND```: Arrendonda o valor para o número de casas decimais escolhido;
+
+⭐ ```MOD```: Retorna o resto da divisão da primeira entrada pela segunda;
+
+⭐ ```SIN```: Retorna o seno de um ângulos (radianos).
+
 ## Relacionamento de Tabelas
 ⭐ ```JOIN```: Permite o relacionamento de duas tabelas através de uma chave.
 
