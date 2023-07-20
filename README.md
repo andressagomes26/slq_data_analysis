@@ -1,4 +1,4 @@
-# <h1 align="center"><font color = #119fbf>PSQL para Análise de Dados </font></h1>
+# <h1 align="center"><font color = #119fbf>SQL para Análise de Dados </font></h1>
 Repositório destinado às práticas realizadas no Curso SQL para Análise de Dados (2023).
 
 ## Comandos DDL
@@ -56,6 +56,7 @@ CASE
     WHEN condição1 THEN faça
     WHEN condição2 THEN faça
     ELSE faça
+END
 ```
 
 ⭐ ```IF```: Aceita condições aninhadas;
@@ -120,6 +121,23 @@ COALESCE(para1, se para1 for nulo faça)
 ⭐ ```MOD```: Retorna o resto da divisão da primeira entrada pela segunda;
 
 ⭐ ```SIN```: Retorna o seno de um ângulos (radianos).
+
+## Funções de Texto
+⭐ ```CONCAT```: Concatena uma ou mais strings;
+
+⭐ ```STARTS_WITH```: Verifica se a string começa com a segunda entrada;
+
+⭐ ```LOWER```: Transforma todos os caracteres da string em minúsculas;
+
+⭐ ```UPPER```: Transforma todos os caracteres da string em maiúsculas;
+
+⭐ ```SPLIT```: Separa a string em uma ou mais strings, baseando-se em um delimitador;
+
+⭐ ```TRIM```: Remove os caracteres iniciais e finais da string correspondentes a segunda entrada;
+
+⭐ ```REPLACE```: Substitui parte da string por outro valor;
+
+⭐ ```CHAR_LENGTH```: Retorna o número de caracteres presentes na string.
 
 ## Relacionamento de Tabelas
 ⭐ ```JOIN```: Permite o relacionamento de duas tabelas através de uma chave.
