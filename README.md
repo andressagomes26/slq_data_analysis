@@ -139,6 +139,31 @@ COALESCE(para1, se para1 for nulo faça)
 
 ⭐ ```CHAR_LENGTH```: Retorna o número de caracteres presentes na string.
 
+## Funções de Data
+⭐ ```DATE```, ```DATETIME```, ```TIMESTAMP```: Cria um objeto data ou data+hora.
+
+⭐ ```CURRENT_DATE```, ```CURRENT_DATETIME```, ```CURRENT_TIMESTAMP```: Verifica a data/data+hora atual, em qualquer fuso horário;
+
+⭐ ```EXTRACT```: Extrai infomação de uma data: Ano, Semana, Dia, Hora, Segundo, etc;
+
+⭐ ```DATE_ADD```, ```DATETIME_ADD```, ```TIMESTAMP_ADD```: Soma um intervalo à uma data ou data e hora;
+
+⭐ ```DATE_SUB```, ```DATETIME_SUB```, ```TIMESTAMP_SUB```: Subtrai um intervalo à data ou data+hora;
+
+⭐ ```DATE_DIFF```, ```DATETIME_DIFF```, ```TIMESTAMP_DIFF```: Retorna um intervalo de diferenças entre datas ou datas+horas;
+
+⭐ ```FORMAT_DATE```, ```FORMAT_DATETIME```,  ```FORMAT_TIMESTAMP```: Formata uma data ou data+hora para o formato de tempo desejado;
+
+## Funções Geográficas
+
+⭐ ```ST_GEOGPOINT```: Cria um ponto no espaçõ com a longitude na primeira entrada e a latitude na segunda entrada
+
+⭐ ```ST_DITANCE```: Calcula a distância, em metros, entre dois pontos;
+
+⭐ ```ST_X```: Retorna a longitude de um ponto no espaço;
+
+⭐ ```ST_Y```: Retorna a latitude de um ponto no espaço.
+
 ## Relacionamento de Tabelas
 ⭐ ```JOIN```: Permite o relacionamento de duas tabelas através de uma chave.
 
