@@ -165,5 +165,10 @@ COALESCE(para1, se para1 for nulo faça)
 ⭐ ```ST_Y```: Retorna a latitude de um ponto no espaço.
 
 ## Relacionamento de Tabelas
-⭐ ```JOIN```: Permite o relacionamento de duas tabelas através de uma chave.
+⭐ ```JOIN``` ou ```INNER JOIN``` : Permite o relacionamento de duas tabelas através de uma chave;
 
+⭐ ```LEFT JOIN```: Junção à esquerda;
+
+⭐ ```RIGHT JOIN```: Junção à direita;
+
+⭐ ```FULL JOIN```: Junção completa;
