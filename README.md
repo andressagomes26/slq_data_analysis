@@ -172,3 +172,16 @@ COALESCE(para1, se para1 for nulo faça)
 ⭐ ```RIGHT JOIN```: Junção à direita;
 
 ⭐ ```FULL JOIN```: Junção completa;
+
+## Window Functions
+⭐ ```FIRST_VALUE``` : Retorna o primeiro valor da variável desejada, considerando a partição agrupada ou ordenada;
+
+⭐ ```LAST_VALUE``` : Retorna o último valor da variável desejada, considerando a partição agrupada ou ordenada;
+
+⭐ ```LAG``` : Retorna o valor da variável desejada de uma linha anterior, considerando a partição agrupada ou ordenada;
+
+⭐ ```LEAD``` : Retorna o valore da variável desejada de uma linha subsequente, considerando a partição agrupada ou ordenada;
+
+⭐ ```RANK``` : Retorna uma classificação numerada de cada partição, onde a ordenação é obrigatória;
+
+⭐ ```ROW_NUMBER``` : Retorna o número de cada linha para cada partição, mas a ordenação não é obrigatória.
