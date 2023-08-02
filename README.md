@@ -185,3 +185,6 @@ COALESCE(para1, se para1 for nulo faça)
 ⭐ ```RANK``` : Retorna uma classificação numerada de cada partição, onde a ordenação é obrigatória;
 
 ⭐ ```ROW_NUMBER``` : Retorna o número de cada linha para cada partição, mas a ordenação não é obrigatória.
+
+###  Verificação
+- Código Credencial: [https://www.udemy.com/certificate/UC-4d91015f-040c-4cd0-befb-534f91535dae/](https://www.udemy.com/certificate/UC-4d91015f-040c-4cd0-befb-534f91535dae/)
